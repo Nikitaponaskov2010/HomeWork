@@ -1,8 +1,8 @@
-
+import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-      Scaner  sc = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
         System.out.println("введите номер дня недели");
         int number = sc.nextInt();
          switch(number){
